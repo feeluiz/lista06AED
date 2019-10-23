@@ -45,7 +45,7 @@ void MaiorMenordoVetor(int *vet, int length){
 void preencheVetorInteiro(int *vet, int length){
     for (int index = 0; index < length; index++)
     {
-        printf("digite  digite um numero inteiro: ");
+        printf("digite um numero inteiro: ");
         scanf("%d",&vet[index]);
     }
 }

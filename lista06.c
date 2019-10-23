@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "questoes.h"
+#include "funcoes/questoes.h"
 #define numExercicios 10
 
 int main(){
