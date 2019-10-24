@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include "utils.h"
 
+#define n  5
+#define m  3
+
+
 void questao01(){
     //1. Determinar o valor absoluto de 
     //um número informado pelo usuário.
@@ -31,7 +35,8 @@ void questao02(){
 }
 void questao03(){
     //Imprimir um vetor de forma reversa.
-    int n = 5, vetor[n];
+    //int n = 5,
+    int vetor[n];
     vetorRandomico(vetor,n);
     
     printf("Vetor normal \n");
@@ -47,7 +52,7 @@ void questao04(){
     //Determinaro menor e o maior valor 
     //de um vetor de inteiros de N posições.
     
-    int n = 5;
+    //int n = 5;
     int vetor[n];
     preencheVetorInteiro(vetor, n);
     escreveVetorNormal(vetor, n);
@@ -57,7 +62,7 @@ void questao04(){
 }
 void questao05(){
     //Determinar a posição da primeira ocorrência de um elemento x
-    int length = 5,posicao = -1,x = -1;
+    int length = n,posicao = -1,x = -1;
     int vetor[length];
     printf("digite o numero inteiro procurado: ");
     scanf("%d", &x);
@@ -70,7 +75,8 @@ void questao05(){
 }
 void questao06(){
     //Determinar a posição da primeira ocorrência de um elemento x
-    int n = 5,x = 0;
+    //int n = 5,
+    int x = 0;
     int vetor[n], posicao[n];
     printf("digite o numero inteiro procurado: ");
     scanf("%d", &x);
@@ -81,7 +87,7 @@ void questao06(){
 }
 void questao07(){
     //Ordenar um vetor de N posições.
-    int n = 5;
+    //int n = 5;
     int vetor[5];
 
     vetorRandomico(vetor, n);
@@ -96,7 +102,7 @@ void questao07(){
 void questao08(){
     //Determinar o maior e o menor valor de 
     //uma matriz de inteiros de NxM posições.
-    int n= 3,m = 3;
+    //int n= 3,m = 3;
     int matriz[n][m];
 
     matrizRandomico(n, m,matriz);
@@ -111,7 +117,7 @@ void questao09(){
     //Determinar a posição (i,j) da primeira ocorrênciade 
     //um elemento x numa matriz de inteiros de NxM posições 
     //(considere a possibilidade do elemento não existir).
-    int n= 3,m = 3;
+    //int n= 3,m = 3;
     int x =-1;
     int matriz[n][m];
 
@@ -131,10 +137,10 @@ void questao10(){
     //A  posição  do  elemento da série deverá ser 
     //um parâmetro de entrada da função.
 
-    int n =-1;
+    int p =-1;
 
     printf("digite o numero posicao fibonacci procurada: ");
-    scanf("%d", &n);
+    scanf("%d", &p);
     //funcao pedida em utils
     printf("oh numero fibonacci na posicao: %d eh = %ld\n",n,fibonacci(n));
     gambiarra();
