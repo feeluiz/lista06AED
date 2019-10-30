@@ -88,7 +88,7 @@ void questao06(){
 void questao07(){
     //Ordenar um vetor de N posições.
     //int n = 5;
-    int vetor[5];
+    int vetor[n];
 
     vetorRandomico(vetor, n);
     printf("Vetor normal.\n");
@@ -142,7 +142,7 @@ void questao10(){
     printf("digite o numero posicao fibonacci procurada: ");
     scanf("%d", &p);
     //funcao pedida em utils
-    printf("oh numero fibonacci na posicao: %d eh = %ld\n",n,fibonacci(n));
+    printf("oh numero fibonacci na posicao: %d eh = %ld\n",p,fibonacci(p));
     gambiarra();
 
 }
